@@ -1,11 +1,13 @@
 // import { UserProfile } from "./One/UserProfile";
-import { JobList } from "./Two/JobList";
+import { Collection } from "./Three/Collection";
+// import { JobList } from "./Two/JobList";
 
 function App() {
   return (
-    <div className="flex h-screen w-full items-center justify-center bg-[#e6effa]">
+    <div className="flex h-full w-full items-center justify-center bg-[#e6effa]">
       {/* <UserProfile /> */}
-      <JobList />
+      {/* <JobList /> */}
+      <Collection />
     </div>
   );
 }
