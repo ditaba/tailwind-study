@@ -2,17 +2,19 @@
 // import { Collection } from "./Three/Collection";
 // import { JobList } from "./Two/JobList";
 // import { ReviewForm } from "./Four/ReviewForm";
+// import { UsersList } from "./Five/UsersList";
 
-import { UsersList } from "./Five/UsersList";
+import { Notification } from "./Six/Notification";
 
 function App() {
   return (
-    <div className="flex h-full w-full items-center justify-center bg-[#e6effa]">
+    <div className="flex h-full w-full items-center justify-center bg-[#e6effa] p-20">
       {/* <UserProfile /> */}
       {/* <JobList /> */}
       {/* <Collection /> */}
       {/* <ReviewForm /> */}
-      <UsersList />
+      {/* <UsersList /> */}
+      <Notification />
     </div>
   );
 }
