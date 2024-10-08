@@ -3,10 +3,9 @@
 // import { JobList } from "./Two/JobList";
 // import { ReviewForm } from "./Four/ReviewForm";
 // import { UsersList } from "./Five/UsersList";
-
-import { Subscriptions } from "./Seven/Subscriptions";
-
 // import { Notification } from "./Six/Notification";
+// import { Subscriptions } from "./Seven/Subscriptions";
+import { JobPositions } from "./Eight/JobPositions";
 
 function App() {
   return (
@@ -17,7 +16,8 @@ function App() {
       {/* <ReviewForm /> */}
       {/* <UsersList /> */}
       {/* <Notification /> */}
-      <Subscriptions />
+      {/* <Subscriptions /> */}
+      <JobPositions />
     </div>
   );
 }
