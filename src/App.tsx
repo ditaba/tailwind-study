@@ -4,7 +4,9 @@
 // import { ReviewForm } from "./Four/ReviewForm";
 // import { UsersList } from "./Five/UsersList";
 
-import { Notification } from "./Six/Notification";
+import { Subscriptions } from "./Seven/Subscriptions";
+
+// import { Notification } from "./Six/Notification";
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       {/* <Collection /> */}
       {/* <ReviewForm /> */}
       {/* <UsersList /> */}
-      <Notification />
+      {/* <Notification /> */}
+      <Subscriptions />
     </div>
   );
 }
